@@ -1,0 +1,213 @@
+.open-sans-black {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body {
+    background-color: #050034 ;
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    font-size: 20pt;
+}
+
+.flexcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subcontainer {
+    width: 60vw;
+    max-width: 1800px;
+}
+
+.cap-span {
+    text-transform: uppercase;
+}
+
+
+
+h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+.alt-color {
+    color: #050034;
+    background-color: rgb(222, 229, 243);
+}
+
+h3 {
+    font-weight: 800;
+}
+
+h4 {
+    margin-left: 1vw;
+}
+
+@media (min-width: 1201px) {
+
+
+
+    #hero-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #hero {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        font-size: 2vw;
+    }
+
+    #hero-header {
+        grid-area: 1 / 1 / 2 / 2;
+        text-anchor: end;
+        border-bottom: white solid 3px;
+    }
+
+    #hero-sub {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    #hero-logo {
+        grid-area: 1 / 2 / 3 / 3;
+        display: flex;
+    }
+
+    #hero-logo > img {
+        width: 20vw;
+    }
+
+    #header-span {
+        font-size: 0.8vw;
+    }
+
+
+
+    #res {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #proj-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8vw;
+    }
+
+    #projgrid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 3vw;
+    }
+
+    #projgrid > div {
+        margin-bottom: -0.7vw;
+    }
+
+    #projgrid > div > a > img {
+        width: 18vw;
+        height: 18vw;
+        object-fit: cover;
+    }
+
+    #about-flex img {
+        width: 8vw;
+        float: left;
+        margin-right: 1vw;
+    }
+
+    #about-flex p {
+        display: inline;
+        text-wrap: wrap;
+    }
+
+}
+
+
+@media (max-width: 1199px) {
+
+    #hero-flex {
+        display: flex;
+        height: 66vw;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-image: url(./assets/Lionhound\ Designs\ LOGO\ Ver.SIMPLE-BACKGROUND.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #hero-header {
+        order: 0;
+        font-size: 4vw;
+        border-bottom: white solid 3px;
+    }
+
+    #hero {
+        width: 60vw;
+    }
+
+
+    #header-span {
+        font-size: 3vw;
+        text-transform: uppercase;
+    }
+
+    #hero-sub {
+        order: 0;
+    }
+
+    #hero-logo {
+        order: 0;
+    }
+
+    #top-logo {
+        height: 0px;
+    }
+
+    #res {
+        width: 66vw;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    h4 {
+        font-size: 2vw;
+    }
+
+    #projgrid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8vw;
+    }
+
+    #projgrid > div > a > img {
+        width: 90vw;
+        object-fit: cover;
+    }
+
+    #aboutflex, img {
+        width: 0px;
+    }
+
+
+
+}
