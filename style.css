@@ -153,7 +153,7 @@ h4 {
 
     #hero-header {
         order: 0;
-        font-size: 4vw;
+        font-size: 2vw;
         border-bottom: white solid 3px;
     }
 
@@ -163,7 +163,7 @@ h4 {
 
 
     #header-span {
-        font-size: 3vw;
+        font-size: 1.5vw;
         text-transform: uppercase;
     }
 
@@ -188,7 +188,7 @@ h4 {
     }
 
     h4 {
-        font-size: 2vw;
+        font-size: 1vw;
     }
 
     #projgrid {
