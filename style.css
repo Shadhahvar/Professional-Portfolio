@@ -12,7 +12,7 @@ body {
     color: #FFF;
     font-family: "Open Sans", sans-serif;
     font-weight: 100;
-    font-size: 2vw;
+    font-size: 0.5vw;
 }
 
 .flexcontainer {
@@ -65,7 +65,7 @@ h4 {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        font-size: 2vw;
+        font-size: 0.5vw;
     }
 
     #hero-header {
